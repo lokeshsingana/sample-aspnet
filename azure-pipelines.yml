@@ -10,7 +10,6 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: PublishBuildArtifacts@1
 
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
